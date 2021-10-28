@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Allure Report Examples]" parallel="tests">
+  <listeners>
+    <listener class-name="com.utilities.TestAllureListener"/>
+  </listeners>
+  <test name="Selenium Tests with Allure Report(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.tests.loginTestAllureReport">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateLogo1"/>
+        </methods>
+      </class> <!-- com.selenium.tests.loginTestAllureReport -->
+    </classes>
+  </test> <!-- Selenium Tests with Allure Report(failed) -->
+</suite> <!-- Failed suite [Allure Report Examples] -->
