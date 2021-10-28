@@ -33,6 +33,7 @@ public class sampleApiTest extends TestBaseAllure {
 		requestParams.put("age", age);
 		httpRequest.header("Content-Type","application/json");
 		System.out.println("requestParams.toJSONString()" +requestParams.toJSONString());
+		System.out.println("requestParams.toJSONString()" +requestParams.toJSONString());
 		httpRequest.body(requestParams.toJSONString());
 		response = httpRequest.request(Method.POST,"/api/v1/create");
 		Thread.sleep(7000);
