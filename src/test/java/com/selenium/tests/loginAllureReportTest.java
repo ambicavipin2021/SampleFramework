@@ -12,11 +12,11 @@ import com.utilities.TestAllureListener;
 
 import io.qameta.allure.Step;
 @Listeners({TestAllureListener.class})
-public class loginTestAllureReport extends TestBaseAllure {
+public class loginAllureReportTest extends TestBaseAllure {
 
 	public WebDriver driver;
 	
-	public loginTestAllureReport(){
+	public loginAllureReportTest(){
 		super();
 		
 	}
